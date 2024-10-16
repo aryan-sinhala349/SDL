@@ -47,6 +47,8 @@
 #include "SDL_build_config_emscripten.h"
 #elif defined(SDL_PLATFORM_NGAGE)
 #include "SDL_build_config_ngage.h"
+#elif defined(SDL_PLATFORM_LINUX)
+#include "SDL_build_config_linux.h"
 #else
 /* This is a minimal configuration just to get SDL running on new platforms. */
 #include "SDL_build_config_minimal.h"
