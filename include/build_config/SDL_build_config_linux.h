@@ -98,5 +98,6 @@ typedef unsigned int uintptr_t;
 #define SDL_VIDEO_VULKAN 1
 #define SDL_THREAD_PTHREAD 1
 #define SDL_THREAD_STDCPP 1
+#define SDL_PROCESS_POSIX 1
 
 #endif
